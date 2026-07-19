@@ -1,0 +1,34 @@
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+pr-venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Docker / Terraform (01-docker-terraform)
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+.env
+
+# Spark / dbt / BigQuery artifact
+target/
+dbt_packages/
+logs/
+*.log
+
+# Data files
+*.csv
+*.parquet
